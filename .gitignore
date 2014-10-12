@@ -1,8 +1,13 @@
-.DS_Store
+node_modules
+dist
+test/temp
+.sass-cache
+app/bower_components
+.tmp
+test/bower_components/
 
+binaries/
 bower_components/
-node_modules/
 npm-debug.log
 
-#Binaries Atom
-binaries/
+.DS_Store
