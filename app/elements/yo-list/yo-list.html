@@ -3,11 +3,11 @@
 <polymer-element name="yo-list" attributes="">
   <template>
     <link rel="stylesheet" href="yo-list.css">
-    <ul>
+    <ol>
       <template id="greeting" repeat="{{ item in items }}">
-        <li><a href="course/{{ item }}">{{ item }}</a></li>
+        <li class="item"><a href="course/{{ toUrl }}">{{ item }}</a></li>
       </template>
-    </ul>
+    </ol>
   </template>
   <script>
     (function () {
@@ -16,12 +16,22 @@
       Polymer({
         ready: function() {
           this.items = [
-            'Basics',
-            'Web Component Polyfills',
-            'Core Elements',
-            'Paper Elements',
-            'Polymer'
+            '"Elevator Pitch" - what node.js is, what sets it apart, why you should care, etc.',
+            'Core Modules',
+            'NPM',
+            'Templating',
+            'Connect Middleware',
+            'Authentication',
+            'Deployment',
+            'Web Development with Express',
+            'RealTime Apps with SocketIO',
+            'Databases Architecture'
           ];
+          this.toUrl();
+          console.log(this._target);
+        },
+        toUrl: function () {
+          // this;
         }
       });
 
