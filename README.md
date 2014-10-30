@@ -159,9 +159,9 @@ Libraries/Style
 ##1)
 ### a. Learnyounode - Hello world
 
-| --------------------| --------- |
-| estimated time| 10 min |
-| points  		| 1         |
+| points         	| 1     	|
+|----------------	|-------	|
+| estimated time 	| 15 min 	|
 
 Write a program that prints the text "HELLO WORLD" to the console (stdout).
 
@@ -192,9 +192,9 @@ to proceed. Your program will be tested, a report will be generated, and the les
 
 ### b. Learnyounode - babysteps
 
-| --------------------| --------- |
-| estimated time| 30 min |
-| points  		| 2         |
+| points         	| 2     	|
+|----------------	|-------	|
+| estimated time 	| 30 min 	|
 
 Write a program that accepts one or more numbers as command-line arguments and prints the sum of those numbers to the console (stdout).
 
